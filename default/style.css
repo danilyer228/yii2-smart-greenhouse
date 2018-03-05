@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: url(background.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.header{
+	height: 180px;
+	width: 100%;
+	background-color: #009966;
+	opacity: 0.8;
+	border: 5px solid green;
+	border-radius: 40px;
+}
+
+.header>h1{
+	font-size: 60px;
+}
+
+.header>h2{
+	font-size: 30px;
+}
+
+.main{
+	margin: 90px auto;
+	width: 80%;
+	height: 90%;
+	min-height: 900px;
+	background-color: gray;
+	opacity: 0.6;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.fblock{
+	margin: auto auto;
+	width: 100%;
+	height: 400px;
+	display: block;
+	font-size: 40px;
+	background-color: green;
+}
+
+.fblock>.buttons-block{
+	display: inline-block;
+	padding: 90px;
+}
+
+#line{
+	width: 360px;
+	height: 90px;
+	margin-top: 30px;
+	border-radius: 15px;
+	font-size: 40px;
+}
+	
+#signIn{
+	width: 180px;
+	height: 90px;
+	margin-top: 30px;
+	border-radius: 15px;
+	font-size: 40px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+input.button25 {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+}
+input.button25:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+input.button24 {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(to bottom, #bfd255 0%,#72aa00 61%,#94c910 91%);
+}
+input.button24:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.footer{
+	height: 180px;
+	width: 100%;
+	background-color: #009966;
+	opacity: 0.8;
+	border: 5px solid green;
+	border-radius: 40px;
+}

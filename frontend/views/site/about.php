@@ -1,0 +1,15 @@
+<?php
+
+/* @var $this yii\web\View */
+
+use yii\helpers\Html;
+
+$this->title = 'О разработчиках';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="main">
+<div class="site-about">
+    <h1><?= Html::encode($this->title) ?></h1>
+    <p>Админ красавчик</p>
+</div>
+</div>
