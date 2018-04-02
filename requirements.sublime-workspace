@@ -1,0 +1,364 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"la",
+				"launch_time_str"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wp_",
+				"wp_head"
+			],
+			[
+				"get_sid",
+				"get_sidebar"
+			],
+			[
+				"get_side",
+				"get_sidebar"
+			],
+			[
+				"get_",
+				"get_headers"
+			],
+			[
+				"blogin",
+				"bloginfo"
+			],
+			[
+				"wp_titl",
+				"wp_title"
+			],
+			[
+				"wp_tit",
+				"wp_title"
+			],
+			[
+				"tit",
+				"wp_title"
+			],
+			[
+				"blo",
+				"bloginfo"
+			],
+			[
+				"tem",
+				"template_directory"
+			],
+			[
+				"get_pos",
+				"get_posts"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "php",
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/OSPanel/domains/basic/commands/HelloController.php",
+		"/C/OSPanel/domains/basic/config/test.php",
+		"/C/OSPanel/domains/basic/models/UserSearch.php",
+		"/C/OSPanel/domains/basic/models/User.php",
+		"/C/OSPanel/domains/basic/commands/DaemonController.php",
+		"/C/OSPanel/domains/basic/commands/ArduinoController.php",
+		"/C/OSPanel/domains/localhost/console/controllers/ArduinoController.php",
+		"/C/OSPanel/domains/localhost/console/config/main-local.php",
+		"/C/OSPanel/domains/localhost/console/config/main.php",
+		"/C/OSPanel/domains/basic/views/temp/update.php",
+		"/C/OSPanel/domains/basic/views/temp/create.php",
+		"/C/OSPanel/domains/basic/views/temp/view.php",
+		"/C/OSPanel/domains/basic/views/temp/index.php",
+		"/C/OSPanel/domains/basic/views/temp/_search.php",
+		"/C/OSPanel/domains/basic/views/temp/_form.php",
+		"/C/OSPanel/domains/basic/views/user/view.php",
+		"/C/OSPanel/domains/basic/views/user/update.php",
+		"/C/OSPanel/domains/basic/views/user/create.php",
+		"/C/OSPanel/domains/basic/views/user/index.php",
+		"/C/OSPanel/domains/basic/views/user/_form.php",
+		"/C/OSPanel/domains/basic/views/user/_search.php",
+		"/C/OSPanel/domains/basic/controllers/SiteController.php",
+		"/C/OSPanel/domains/basic/views/layouts/main.php",
+		"/C/OSPanel/domains/basic/config/db.php",
+		"/C/OSPanel/domains/basic/views/todo/_search.php",
+		"/C/OSPanel/domains/basic/views/todo/update.php",
+		"/C/OSPanel/domains/basic/views/todo/_form.php",
+		"/C/OSPanel/domains/basic/views/todo/index.php",
+		"/C/OSPanel/domains/basic/views/todo/view.php",
+		"/C/OSPanel/domains/basic/models/SignupForm.php",
+		"/C/OSPanel/domains/basic/models/PasswordResetRequestForm.php",
+		"/C/OSPanel/domains/basic/models/ResetPasswordForm.php",
+		"/C/OSPanel/domains/basic/models/ContactForm.php",
+		"/C/OSPanel/domains/basic/models/LoginForm.php",
+		"/C/OSPanel/domains/basic/models/Device.php",
+		"/C/OSPanel/domains/basic/models/Todo.php",
+		"/C/OSPanel/domains/basic/models/Temp.php",
+		"/C/OSPanel/domains/basic/models/TempSearch.php",
+		"/C/OSPanel/domains/basic/models/TodoSearch.php",
+		"/C/OSPanel/domains/basic/controllers/UserController.php",
+		"/C/OSPanel/domains/basic/controllers/TempController.php",
+		"/C/OSPanel/domains/basic/controllers/TodoController.php",
+		"/C/OSPanel/domains/localhost/common/config/main.php",
+		"/C/OSPanel/domains/basic/config/params.php",
+		"/C/OSPanel/domains/basic/composer.json",
+		"/C/OSPanel/domains/localhost/composer.json",
+		"/C/OSPanel/domains/localhost/console/migrations/m180328_120357_create_device_table.php",
+		"/C/OSPanel/domains/localhost/frontend/controllers/TodoController.php",
+		"/C/OSPanel/domains/localhost/frontend/controllers/SiteController.php",
+		"/C/OSPanel/domains/localhost/frontend/models/Todo.php",
+		"/C/OSPanel/domains/localhost/console/controllers/DaemonController.php",
+		"/C/OSPanel/domains/localhost/console/garden/Gateway.php",
+		"/C/OSPanel/domains/localhost/frontend/web/index.php",
+		"/C/OSPanel/domains/localhost/frontend/config/main.php",
+		"/C/OSPanel/domains/localhost/vendor/yiisoft/yii2-redis/src/Connection.php",
+		"/C/OSPanel/domains/localhost/console/garden/AutomationPlatform.php",
+		"/C/OSPanel/domains/localhost/console/migrations/m180328_121405_create_todo_table.php",
+		"/C/OSPanel/domains/localhost/frontend/config/main-local.php",
+		"/C/OSPanel/domains/localhost/common/config/main-local.php",
+		"/C/OSPanel/domains/localhost/vendor/yiisoft/yii2-redis/src/ActiveRecord.php",
+		"/C/OSPanel/domains/localhost/garden/Gateway.php",
+		"/C/OSPanel/domains/localhost/garden/test.php",
+		"/C/OSPanel/domains/localhost/garden/Arduino.php",
+		"/C/OSPanel/domains/localhost/console/migrations/m180314_130851_update_todo_table.php",
+		"/C/OSPanel/domains/test2.dz/weather.php",
+		"/C/OSPanel/domains/test2.dz/init.php",
+		"/C/OSPanel/domains/test2.dz/TelegramBot.php",
+		"/C/OSPanel/domains/test2.dz/city.php",
+		"/C/OSPanel/domains/test2.dz/vendor/guzzlehttp/guzzle/src/Client.php",
+		"/C/OSPanel/domains/test2.dz/basic/models/Breed.php",
+		"/C/OSPanel/domains/test2.dz/basic/views/site/view.php",
+		"/C/OSPanel/domains/test2.dz/basic/views/site/_form.php",
+		"/C/OSPanel/domains/test2.dz/basic/views/site/_search.php",
+		"/C/OSPanel/domains/test2.dz/basic/controllers/SiteController.php",
+		"/C/OSPanel/domains/test2.dz/basic/migrations/m180326_135617_create_breed_table.php",
+		"/C/OSPanel/domains/localhost/console/garden/device/Device.php",
+		"/C/OSPanel/domains/wiki.dz/blog/common/config/main-local.php",
+		"/C/OSPanel/domains/localhost/console/garden/device/Watering.php",
+		"/C/OSPanel/domains/localhost/console/garden/device/Warm.php",
+		"/C/OSPanel/domains/localhost/console/garden/device/SecondLight.php",
+		"/C/OSPanel/domains/localhost/console/garden/device/FirstLight.php",
+		"/C/OSPanel/domains/wiki.dz/index.php",
+		"/C/OSPanel/domains/test2.dz/basic/config/db.php",
+		"/C/OSPanel/domains/4git/Day21(yii2)/blog/init",
+		"/C/OSPanel/domains/wiki.dz/blog/init",
+		"/C/OSPanel/domains/4git/Day19(yii2)/blog/common/config/params.php",
+		"/C/OSPanel/domains/4git/Day19(yii2)/blog/common/config/main.php",
+		"/C/OSPanel/domains/4git/Day19(yii2)/blog/console/config/main.php",
+		"/C/OSPanel/domains/4git/Day19(yii2)/blog/console/config/params.php",
+		"/C/OSPanel/domains/test2.dz/academy/config/db.php",
+		"/C/OSPanel/domains/test2.dz/basic/models/Post.php",
+		"/C/OSPanel/domains/test2.dz/basic/views/post/index.php",
+		"/C/OSPanel/domains/test2.dz/basic/controllers/PostController.php",
+		"/C/OSPanel/domains/test2.dz/basic/controllers/UserController.php",
+		"/C/OSPanel/domains/test2.dz/basic/models/User.php",
+		"/C/OSPanel/domains/4git/Day20(yii2)/controllers/CafeController.php",
+		"/C/OSPanel/domains/test2.dz/models/Cafes.php",
+		"/C/OSPanel/domains/test2.dz/controllers/SiteController.php",
+		"/C/OSPanel/domains/test2.dz/views/site/index.php",
+		"/C/OSPanel/domains/test2.dz/config/db.php",
+		"/C/OSPanel/domains/test2.dz/controllers/CafeController.php",
+		"/C/OSPanel/domains/test2.dz/index.html",
+		"/C/OSPanel/domains/localhost/frontend/views/todo/index.php",
+		"/C/OSPanel/domains/localhost/frontend/views/todo/view.php",
+		"/C/OSPanel/domains/localhost/frontend/views/todo/_form.php",
+		"/C/OSPanel/domains/localhost/frontend/views/todo/update.php",
+		"/C/OSPanel/domains/localhost/console/garden/ArduinoGateway.php",
+		"/C/OSPanel/domains/localhost/frontend/models/Temp.php",
+		"/C/OSPanel/domains/localhost/console/garden/Arduino.php",
+		"/C/OSPanel/domains/localhost/console/garden/Watering.php",
+		"/C/OSPanel/domains/localhost/console/garden/SecondLight.php",
+		"/C/OSPanel/domains/localhost/console/garden/Warm.php",
+		"/C/OSPanel/domains/localhost/console/garden/FirstLight.php",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$DIa2468.36765/Todo.php",
+		"/C/OSPanel/domains/localhost/common/config/test.php",
+		"/C/OSPanel/domains/localhost/console/controllers/garden/Watering.php",
+		"/C/OSPanel/domains/localhost/console/controllers/garden/SecondLight.php",
+		"/C/OSPanel/domains/localhost/console/controllers/garden/FirstLight.php",
+		"/C/OSPanel/domains/localhost/console/controllers/garden/Warm.php",
+		"/C/OSPanel/domains/localhost/console/controllers/garden/Arduino.php",
+		"/C/OSPanel/domains/localhost/common/garden/Watering.php",
+		"/C/OSPanel/domains/localhost/common/garden/SecondLight.php",
+		"/C/OSPanel/domains/localhost/common/garden/Warm.php",
+		"/C/OSPanel/domains/localhost/common/garden/FirstLight.php",
+		"/C/OSPanel/domains/localhost/common/garden/Arduino.php",
+		"/C/OSPanel/domains/localhost/common/components/garden/Arduino.php",
+		"/C/OSPanel/domains/localhost/common/components/garden/Warm.php",
+		"/C/OSPanel/domains/localhost/common/components/garden/SecondLight.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "requirements.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
