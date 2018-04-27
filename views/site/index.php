@@ -24,7 +24,7 @@ $this->title = 'Панель управления';
 
 		Температура: 
 		<br>
-		<div id="temp"><?=Temp::getTemp(); ?></div>
+		<div id="temp"><?=(int)Temp::getTemp(); ?></div>
 	</div>
 
 	<div class="vlaga block">
@@ -34,19 +34,19 @@ $this->title = 'Панель управления';
 		<div id="vlaga">10</div>
 	</div>
 	
-	<? $form = ActiveForm::begin();?>
+	<?php $form = ActiveForm::begin();?>
 		<h1>Пульт управления</h1>
 		<?php 
 		$devices = Device::find()->all();
 		foreach($devices as $key => $device): ?>
 			<div class="block">
 				<h2><?= Todo::findOne($device)['task']?></h2>
-				<!-- <?= Html::submitButton('On', ['class' => 'on', 'inputOptions' => ['name' => 'submit','value' => $device['command_on']]]); ?>
-				<?= Html::submitButton('Off', ['class' => 'on',  'inputOptions' => ['name' => 'submit','value' => $device['command_off']]]); ?> -->
-				<button type="submit" name="command", value="<?= $device['command_on'] ?>" class="on">On</button>
-				<button type="submit" name="command", value="<?= $device['command_off'] ?>" class="on">Off</button>
+				<button type="submit" name="command", value="<?= $device['command_on'] ?>" class="on">Off</button>
+				<button type="submit" name="command", value="<?= $device['command_off'] ?>" class="on">On</button>
 			</div>
-		<? endforeach;?>
-		<? ActiveForm::end();?> 
+		<?php endforeach; ?>
+		<?php ActiveForm::end();?> 
 	</form>	
 </div>
+</body>
+</html>

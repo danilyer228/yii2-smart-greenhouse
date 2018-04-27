@@ -47,7 +47,7 @@ class Moisture extends \yii\db\ActiveRecord
 
     public function getMeasurementTime()
     {
-        $arr =  self::find($id)->select('time')->asArray()->all();
+        $arr =  self::find('id')->select('time')->asArray()->all();
         foreach($arr as $k => $v) {
             $times[] = $v['time'];
         }
@@ -55,7 +55,7 @@ class Moisture extends \yii\db\ActiveRecord
     }
     public function getMeasurementMoisture()
     {
-        $arr =  self::find($id)->select('moisure')->asArray()->all();
+        $arr =  self::find('id')->select('moisure')->asArray()->all();
         foreach($arr as $k => $v) {
             $moistures[] = $v['moisure'];
         }

@@ -11,7 +11,7 @@ class ArduinoController extends Controller
     protected $handler;
     public function actionRun()
     {
-        $this->handler = fopen('COM8', "w");
+        $this->handler = fopen('/dev/ttyUSB0', "w+");
         sleep(2);
     	while(1) {
             $this->writeCommand();
@@ -29,10 +29,6 @@ class ArduinoController extends Controller
             fwrite($this->handler, $command);
             Yii::$app->redis->set('command', 0);
         }
-    }
-
-    public function readArduino() {
-        return fread($this->handler, 1000);
     }
 }
 

@@ -47,7 +47,7 @@ class Temp extends \yii\db\ActiveRecord
 
     public function getMeasurementTime()
     {
-        $arr =  self::find($id)->select('time')->asArray()->all();
+        $arr =  self::find('id')->select('time')->asArray()->all();
         foreach($arr as $k => $v) {
             $times[] = $v['time'];
         }
@@ -55,7 +55,7 @@ class Temp extends \yii\db\ActiveRecord
     }
     public function getMeasurementTemp()
     {
-        $arr =  self::find($id)->select('temp')->asArray()->all();
+        $arr =  self::find('id')->select('temp')->asArray()->all();
         foreach($arr as $k => $v) {
             $temps[] = $v['temp'];
         }
@@ -63,9 +63,10 @@ class Temp extends \yii\db\ActiveRecord
     }
 
     public function addTemp() {
-        $this->temp = rand(23,25);
+        $handle = fopen('/dev/ttyUSB0', "r");
+        $this->temp = (int)fread($handle, 20);;
         $this->time = date('Y-m-d H:i:s');
-        $this->save();
+        return $this->save();
     }
 
     public function getTemp() {
