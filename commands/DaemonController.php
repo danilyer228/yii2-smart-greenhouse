@@ -2,8 +2,6 @@
 
 namespace app\commands;
 
-namespace app\commands;
-
 use Yii;
 use app\models\Todo;
 use yii\console\Controller;

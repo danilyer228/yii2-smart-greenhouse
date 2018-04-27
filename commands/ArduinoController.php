@@ -8,20 +8,32 @@ use app\models\Todo;
 
 class ArduinoController extends Controller
 {  
+    protected $handler;
     public function actionRun()
     {
-        $handler = fopen('COM8', 'w');
+        $this->handler = fopen('COM8', "w");
         sleep(2);
     	while(1) {
-            $command = Yii::$app->redis->get('command');
-            if($command != 0) {
-                fwrite($handler, $command);
-                Yii::$app->redis->set('command', 0);
-            }
+            $this->writeCommand();
     	}
+    }    
+
+    public function checkCommandAvailability() {
+        $command = Yii::$app->redis->get('command');
+        return ($command != 0) ? $command : false;
     }
 
-    
+    public function writeCommand() {
+        $command = $this->checkCommandAvailability();
+        if($command) {
+            fwrite($this->handler, $command);
+            Yii::$app->redis->set('command', 0);
+        }
+    }
+
+    public function readArduino() {
+        return fread($this->handler, 1000);
+    }
 }
 
 

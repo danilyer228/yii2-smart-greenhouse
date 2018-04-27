@@ -5,20 +5,20 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "temp".
+ * This is the model class for table "moisture".
  *
  * @property int $id
- * @property int $temp
+ * @property int $moisure
  * @property string $time
  */
-class Temp extends \yii\db\ActiveRecord
+class Moisture extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'temp';
+        return 'moisture';
     }
 
     /**
@@ -27,8 +27,8 @@ class Temp extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['temp', 'time'], 'required'],
-            [['temp'], 'integer'],
+            [['moisure', 'time'], 'required'],
+            [['moisure'], 'integer'],
             [['time'], 'safe'],
         ];
     }
@@ -40,7 +40,7 @@ class Temp extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'temp' => 'Temp',
+            'moisure' => 'Moisure',
             'time' => 'Time',
         ];
     }
@@ -53,22 +53,22 @@ class Temp extends \yii\db\ActiveRecord
         }
         return $times;
     }
-    public function getMeasurementTemp()
+    public function getMeasurementMoisture()
     {
-        $arr =  self::find($id)->select('temp')->asArray()->all();
+        $arr =  self::find($id)->select('moisure')->asArray()->all();
         foreach($arr as $k => $v) {
-            $temps[] = $v['temp'];
+            $moistures[] = $v['moisure'];
         }
-        return $temps;
+        return $moistures;
     }
 
-    public function addTemp() {
-        $this->temp = rand(23,25);
+    public function addMoisture() {
+        $this->moisure = rand(10,15);
         $this->time = date('Y-m-d H:i:s');
         $this->save();
     }
 
-    public function getTemp() {
-        return Yii::$app->redis->get('temp');
+    public function getMoisture() {
+        return Yii::$app->redis->get('moisture');
     }
 }

@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ListView;
 use app\models\Device;
 use app\models\Todo;
+use app\models\Temp;
 use yii\bootstrap\ActiveForm;
 /* @var $this yii\web\View */
 
@@ -23,14 +24,14 @@ $this->title = 'Панель управления';
 
 		Температура: 
 		<br>
-		<div id="temp">1</div>
+		<div id="temp"><?=Temp::getTemp(); ?></div>
 	</div>
 
 	<div class="vlaga block">
 		<br>
 		Влажность: 
 		<br>
-		<div id="vlaga">1</div>
+		<div id="vlaga">10</div>
 	</div>
 	
 	<? $form = ActiveForm::begin();?>
