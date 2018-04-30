@@ -41,7 +41,6 @@ AppAsset::register($this);
             $menuItems[] = ['label' => 'Панель управления', 'url' => ['/site/index']];
             $menuItems[] = ['label' => 'Расписание', 'url' => ['/todo/index']];
             $menuItems[] = ['label' => 'Статистика', 'url' => ['/temp/index']];
-            $menuItems[] = ['label' => 'О разработчиках', 'url' => ['/site/about']];
             $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(

@@ -41,8 +41,8 @@ $this->title = 'Панель управления';
 		foreach($devices as $key => $device): ?>
 			<div class="block">
 				<h2><?= Todo::findOne($device)['task']?></h2>
-				<button type="submit" name="command", value="<?= $device['command_on'] ?>" class="on">Off</button>
-				<button type="submit" name="command", value="<?= $device['command_off'] ?>" class="on">On</button>
+				<button type="submit" name="command", value="<?= $device['command_on'] ?>" class="on">On</button>
+				<button type="submit" name="command", value="<?= $device['command_off'] ?>" class="on">Off</button>
 			</div>
 		<?php endforeach; ?>
 		<?php ActiveForm::end();?> 

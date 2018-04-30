@@ -15,7 +15,7 @@ class StatsController extends Controller
         $temp = new Temp();
         $moisture = new Moisture;
     	while(1) {
-            var_dump($temp->addTemp());
+            $temp->addTemp();
             $moisture->addMoisture();
             Yii::$app->redis->set('temp', $temp->temp);
             Yii::$app->redis->set('moisture', $moisture->moisure);
